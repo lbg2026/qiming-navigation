@@ -1,0 +1,63 @@
+启明导航页
+<!文档类型html >
+< 超文本标记语言 语言=“zh-CN” >
+< 头 >
+< 自指的 字符集=“UTF八号" >
+    <自指的 名字="视窗" 内容=宽度=设备宽度，初始比例=1.0>
+    <标题>启明导航页 - 智能优化版   含AA对话搜索+起点/笔阁趣</标题>
+    <!-- 核心安全头部配置 -->
+< 自指的 http-equiv = “X框架-选项" 内容 = "否认" >
+< 自指的 http-equiv = “X-XSS-保护" 内容 = " 1；模式=块">
+< 自指的 http-equiv = “X -内容-类型-选项" 内容 = “诺斯尼夫” >
+< 自指的 http-equiv = "推荐人-策略" 内容 = "无推荐人" >
+< 自指的 名字 = “机器人” 内容 = 没有索引，没有跟随 >
+“啊！-外部资源：模型/Figure 为/AIDialogue 依赖,则」
+    <脚本 科学研究委员会=“https://cdn.tailwindcss.com”></脚本>
+<环 href=https://cdn 。jsdelivr,,则。 净/NPM/font-牛逼 @ 4。7 .0/CSS/font-awesome。min。CSS » 能量损耗率="样式表">
+< 脚本 科学研究委员会 = https://cdn 。jsdelivr，，则。 净/npm/axios @ 1。6.8/距离/axios。数量 JS ></脚本 >
+< 环 能量损耗率 = "图标" href = " https://img .绘制 8作者/ Fluent/48/4 fc3f 7/star-guide巴布亚-New Guinea“类型= “图像/png >
+<风格>
+        /* 基础样式重置 */
+* {边距:0；填充:0；框大小:边框-框；}
+body{font-family:埋葬“微软黑色",无衬线；Hintergrund线性渐变(135)一个)度、#0f172a 0%、# 1e 293 b 100%)；颜色#e0e0e0行高:1.6;充值:20px最小高度:100vh
+。容器{最大宽度:1400px边距:0自动；}
+        
+        /* 头部样式 */
+header { text-align:center；边距-底部:30px填充:30px 0；border-bottom:1px solid rgba(79，195，247，0.2)；位置:相对；溢出:隐藏；}
+header::在{content:" "之前；位置:绝对；top:0；左:50%；transform:translate x(-50%)；宽度:60%；高度:2px背景:线性渐变(90度，透明，#4fc3f7，透明)；}
+页眉h1 { font-size:3 rem；颜色:# 4fc3f7边距-底部:10px字母间距:3px文字-阴影:0 0 15px rgba(79，195，247，0.3)；}
+页眉p { color:# 94a 3b 8；字体大小:1.1红色；边距-底部:15px}
+。安全提示{ display:inline-flex；对齐-项目:居中；差距:8px背景:rgba(30，41，59，0.8)；边框:1px纯色# 4fc3f7边框半径:30px填充:10px 20px边距-顶部:5px颜色:# 81c784字体大小:0.95雷姆；box-shadow:0 4px 15px rgba(0，0，0，0.3)；}
+        
+/* 新增:AA对话搜索面板 */
+。人工智能搜索面板{背景:rgba(30，41，59，0.8)；边框:1px实心rgba(79，195，247，0.3)；边框半径:12px填充:25px边距-底部:30pxbox-shadow:0 4px 20px rgba(0，0，0，0.3)；背景-滤镜：模糊(10px)；}
+。ai-search-title { font-size:1.4 rem；颜色:# 4fc3f7边距-底部:20px显示器:flex对齐-项目：居中；差距:10px}
+。人工智能搜索框{ display:flex；差距:10pxflex-wrap:缠绕；}
+# ai-search-input { flex:1 1 80%；填充:15像素20像素背景:rgba(15，23，42，0.7)；边框:1px实心rgba(79，195，247，0.2)；边框半径:8px颜色:# e2e 8楼0字体大小:1雷姆；大纲：无；过渡：全0.3s}
+# ai-search-input:focus { border-color:# 4 fc3f 7；盒影:0 0 10px rgba(79，195，247，0.2)；}
+#人工智能-搜索BTN弹性:1110%;最小宽度:100像素；填充:15像素20像素背景：线性梯度(135度、4fc3f7 0%、# 2563 EB 100%)；边框：无；边框半径:8px颜色:# ffffont-size:1雷姆；光标：指针；过渡：全0.3秒显示器:flex对齐-项目：居中；对齐-内容：居中；差距:8px}
+# ai-search-BTN:hover { transform:translate y(-2px)；盒影:0 4px 15px rgba(79，195，247，0.3)；}
+# ai-search-result { margin-top:20px；填充:20px背景:rgba(15，23，42，0.5)；边框半径:8px最小高度:80px显示器:flex对齐-项目：居中；对齐-内容：居中；颜色:# 94a 3 b 8字体大小:1雷姆；}
+# ai-搜索-结果。正在加载{ color:# 4 fc3f 7；}
+# ai-搜索-结果has-result { color:# e2e 8 f 0；对齐-内容：灵活开始；align-items:flex-start；行高:1.8;}
+。ai-result-item { margin-bottom:10px；填充-底部:10像素边框-底部:1px实心rgba(79，195，247，0.1)；}
+。ai-result-item:last-child { border-bottom:none；边距-底部:0;底部填充:0;}
+。ai-result-title { color:# 4 fc3f 7；字体粗细:600;}
+。ai-result-link { color:# 81c 784；文字-装饰：无；左边距:10px}
+。ai-result-link:hover { text-decoration:underline；}
+        
+        /* 信息面板样式 */
+。信息面板{显示：网格；网格-模板-列：重复（自动调整,最小最大(250px，1fr))；差距:20px边距-底部:30px}
+。信息卡{背景:rgba(30，41，59，0.7)；边框半径:12px填充:20pxbox-shadow:0 4px 20px rgba(0，0，0，0.3)；边框:1px实心rgba(79，195，247，0.1)；过渡：全0.3秒背景-滤镜：模糊(10px)；}
+。info-card:hover { transform:translate y(-5px)；盒影:0 8px 25px rgba(79，195，247，0.2)；边框颜色:rgba(79，195，247，0.3)；}
+。信息卡H3 { font-size:1.2雷姆；颜色:# 4fc3f7边距-底部:15px显示器:flex对齐-项目：居中；差距:10px}
+。信息卡I { font-size:1.5雷姆；颜色:# 81c784}
+        
+        /* 时间模块 */
+。time-module { text-align:center；}
+#当前时间{ font-size:3.5雷姆；字体粗细:700;颜色:# ffffff边距:10px 0；字母间距:2px}
+#当前日期{ font-size:1.1雷姆；颜色:# 94a3b8}
+        
+        /* 天气模块 */
+。天气模块{ display:flex；伸缩方向：列；差距:10px}
+。天气标题{ display:flex；对齐-内容：空格-是吗
